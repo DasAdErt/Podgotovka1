@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="resources\" />
+    <None Remove="resources\icon-cleaning.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\icon-cleaning.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
